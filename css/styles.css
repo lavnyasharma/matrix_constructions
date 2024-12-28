@@ -92,7 +92,7 @@ html {
     margin-top: -5px;
 }
 #sec-0 header:last-of-type{
-    background-color: var(--bgaccent);
+    background-color:white;
     position: relative;
 }
 #sec-0 header:last-of-type .container{
@@ -733,7 +733,7 @@ text-shadow:1px 1px #73757E;
         background-color: transparent;
     }
     #sec-0 input + nav {
-        background-color: var(--bgaccent_withOpacity);
+        background-color: #fff;
         position: absolute;
         top: 100%;
         right: 0%;
