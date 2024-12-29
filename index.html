@@ -9,7 +9,6 @@
         <meta name="keywords" content="Construction, Building, Engineering, Renovation, Infrastructure">
         <meta name="author" content="Your Company Name">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-
         <link href="css/all.min.css" rel="stylesheet" type="text/css">
         <link href="css/animate.compat.css" rel="stylesheet" type="text/css">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -34,13 +33,34 @@
                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="#"><img src="Images/youtube-logotype.png" alt=""></i></a>
                 </div>
-            </div> -->
-        </header>
+            </div> 
+        </header> -->
         <header>
             <div class="hide" id="searchBar">
                 <input type="search" name="searchBox" id="searchBox" placeholder="Type your search here..    Press [Esc] to exist">
             </div>
             <div class="container">  
+                <script>
+                    // Array of image URLs
+                    const images = [
+                        "../Images/banner.jpg",
+                        "../Images/bg2.jpg",
+                        "../Images/bg4.jpg"
+                    ];
+            
+                    let currentIndex = 0; // Keep track of the current image
+            
+                    function changeBackgroundImage() {
+                        currentIndex = (currentIndex + 1) % images.length; // Cycle through images
+                        const newImage = images[currentIndex];
+            
+                        // Update the background of #sec-0
+                        document.getElementById('sec-0').style.backgroundImage = `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${newImage})`;
+                    }
+            
+                    // Call changeBackgroundImage every 4 seconds
+                    setInterval(changeBackgroundImage, 3000);
+                </script>
                 <a href="#"><img style="height: 60px;" src="Images/svg_matrix_construction.svg" alt=""></i></a>
                 <label for="menu"><i class="fas fa-bars"></i></label>
                 <input type="checkbox" id="menu">
@@ -62,8 +82,6 @@
             <h1><b></b>Road Construction, Architectural Design & More<br>
             <span>Building Strong Foundations for the Future</span></h2>
             <p></p>
-            <a href="#">Know More</a>
-            <a href="#">view project</a>
         </div>
         </article>
     </section>
@@ -121,8 +139,8 @@
             <div class="cont">
                 <div class="card border-0">
                     <div>
-                        <img src="Images/card1.jpg" class="card-img-top" alt="...">
-                        <h5 class="caption">Construction Management</h5>
+                        <img src="Images\civil.jpg" class="card-img-top" alt="...">
+                        <h5 class="caption"> Civil Construction</h5>
                     </div>
                     <div class="card-body px-0 pt-4">
                         <p>At  Matrix construction & Supplies our construction management services are designed to streamline your project and ensure its success. We take a hands-on approach to overseeing every phase of construction, from budgeting and planning to execution and completion. Our expert team works closely with you to mitigate risks, optimize resources, and meet deadlines, all while ensuring quality craftsmanship. Let us handle the complexity of your project so you can focus on what matters most.</p>
@@ -131,51 +149,51 @@
                 </div>
                 <div class="card border-0">
                     <div>
-                        <img src="Images/card1.jpg" class="card-img-top" alt="...">
-                        <h5 class="caption">Construction Management</h5>
+                        <img src="Images\concreet.jpg" class="card-img-top" alt="...">
+                        <h5 class="caption">Concreting</h5>
                     </div>
                     <div class="card-body px-0 pt-4">
-                        <p>At  Matrix construction & Supplies our construction management services are designed to streamline your project and ensure its success. We take a hands-on approach to overseeing every phase of construction, from budgeting and planning to execution and completion. Our expert team works closely with you to mitigate risks, optimize resources, and meet deadlines, all while ensuring quality craftsmanship. Let us handle the complexity of your project so you can focus on what matters most.</p>
+                        <p>At Martix Construction & Supplies, we specialize in high-quality concreting services, from foundations to pavements and structural concrete elements. We ensure that all our projects are completed with precision and durability, providing strong and reliable surfaces for any construction project.</p>
+                    
+                    </div>most
+                </div>
+                <div class="card border-0">
+                    <div>
+                        <img src="Images\earth moving (1).jpg" class="card-img-top" alt="...">
+                        <h5 class="caption">Earthmoving</h5>
+                    </div>
+                    <div class="card-body px-0 pt-4">
+                        <p>With Martix Construction & Supplies, our earth moving services ensure that your construction site is prepared for any project. From excavation and grading to reshaping the land, we use modern machinery to move earth efficiently, ensuring a solid foundation for your development.</p>
                     
                     </div>
                 </div>
                 <div class="card border-0">
                     <div>
-                        <img src="Images/card1.jpg" class="card-img-top" alt="...">
-                        <h5 class="caption">Construction Management</h5>
+                        <img src="Images\plant hiring.jpeg" class="card-img-top" alt="...">
+                        <h5 class="caption">Plant Hire</h5>
                     </div>
                     <div class="card-body px-0 pt-4">
-                        <p>At  Matrix construction & Supplies our construction management services are designed to streamline your project and ensure its success. We take a hands-on approach to overseeing every phase of construction, from budgeting and planning to execution and completion. Our expert team works closely with you to mitigate risks, optimize resources, and meet deadlines, all while ensuring quality craftsmanship. Let us handle the complexity of your project so you can focus on what matters most.</p>
+                        <p> Martix Construction & Supplies provides a wide range of plant hire services, including excavators, cranes, bulldozers, and more. Our fleet of well-maintained machinery is available for hire on a flexible basis, helping to keep your construction projects on schedule and within budget.</p>
                     
                     </div>
                 </div>
                 <div class="card border-0">
                     <div>
-                        <img src="Images/card1.jpg" class="card-img-top" alt="...">
-                        <h5 class="caption">Construction Management</h5>
+                        <img src="Images\dranage.jpg" class="card-img-top" alt="...">
+                        <h5 class="caption">Drainage</h5>
                     </div>
                     <div class="card-body px-0 pt-4">
-                        <p>At  Matrix construction & Supplies our construction management services are designed to streamline your project and ensure its success. We take a hands-on approach to overseeing every phase of construction, from budgeting and planning to execution and completion. Our expert team works closely with you to mitigate risks, optimize resources, and meet deadlines, all while ensuring quality craftsmanship. Let us handle the complexity of your project so you can focus on what matters most.</p>
+                        <p> Martix Construction & Supplies provides a wide range of plant hire services, including excavators, cranes, bulldozers, and more. Our fleet of well-maintained machinery is available for hire on a flexible basis, helping to keep your construction projects on schedule and within budget.</p>
                     
                     </div>
                 </div>
                 <div class="card border-0">
                     <div>
-                        <img src="Images\road onstruction.jpg.jpg" class="card-img-top" alt="...">
-                        <h5 class="caption">Road Construction</h5>
+                        <img src="Images\high.jpg" class="card-img-top" alt="...">
+                        <h5 class="caption">Heavy Haulage</h5>
                     </div>
                     <div class="card-body px-0 pt-4">
-                        <p>We specialize in road construction services, creating safe, durable, and efficient roadways that meet the highest engineering standards. Whether you're planning a new highway, local roads, or resurfacing existing infrastructure, our skilled engineers and construction crew ensure precision and quality at every stage. With a focus on safety, environmental impact, and long-term sustainability, Matrix construction & Supplies is the trusted choice for road construction projects of any scale.</p>
-                    
-                    </div>
-                </div>
-                <div class="card border-0">
-                    <div>
-                        <img src="Images/card3.jpg" class="card-img-top" alt="...">
-                        <h5 class="caption">Architectural Services</h5>
-                    </div>
-                    <div class="card-body px-0 pt-4">
-                        <p>Our architectural team at  Matrix construction & Supplies blends creativity with practicality to design spaces that inspire. We offer comprehensive architectural services, from initial concept design to the final blueprint, ensuring your vision is brought to life. Our approach is rooted in understanding your needs and the space’s purpose, blending aesthetic appeal with functionality. Whether for residential, commercial, or industrial projects, we design innovative structures that stand the test of time.
+                        <p>Martix Construction & Supplies offers expert heavy haulage services, providing the safe and efficient transportation of oversized and heavy loads. Our specialized vehicles and experienced team ensure that your equipment and materials are delivered on time, regardless of size or complexity.
                         </p>
                     
                     </div>
@@ -288,7 +306,7 @@
          
             <div class="contact">
                 <h1>Contact us</h1>
-                <p>188 Separation Street, Bell Park, VIC, 3215</p>
+                <p>146 Rossack Dr, Waurponds, Geelong VIC</p>
                 <p>info@matrixconstructions.au</p>
                 <p>+61 487 968 335</p>
 
